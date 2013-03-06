@@ -22,8 +22,11 @@
 #
 
 #
-# Script to stop Neubot on M-Lab slivers
+# $HOME/init/start.sh - start Neubot on M-Lab slivers.
+#
+# To be robust with respect to future changes of Neubot shutdown procedure on
+# Measurement Lab, the real shutdown script is bundled with Neubot sources.
 #
 
 DEBUG=
-$DEBUG kill -TERM $($DEBUG cat /var/run/neubot.pid)
+$DEBUG /home/mlab_neubot/neubot/M-Lab/stop.sh

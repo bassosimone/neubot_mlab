@@ -22,15 +22,11 @@
 #
 
 #
-# Script to start Neubot on M-Lab slivers
+# $HOME/init/start.sh - start Neubot on M-Lab slivers.
+#
+# To be robust with respect to future changes of Neubot startup procedure on
+# Measurement Lab, the real startup script is bundled with Neubot sources.
 #
 
 DEBUG=
-$DEBUG /etc/init.d/rsyslog restart
-#
-# Must redirect stdin to /dev/null because if the input is a socket
-## rsync believes it has been invoked by inetd and tries to negotiate
-# with us.
-#
-#$DEBUG rsync --daemon < /dev/null
-$DEBUG /usr/bin/python /home/mlab_neubot/neubot/neubot/main/__init__.py server
+$DEBUG /home/mlab_neubot/neubot/M-Lab/start.sh
