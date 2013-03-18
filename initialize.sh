@@ -37,7 +37,7 @@ if [ -f neubot.tar.gz ]; then
     /home/mlab_neubot/init/start.sh
 
     echo "cleanup"
-    #rm -rf neubot.tar.gz
+    rm -rf mlab_neubot.tar neubot.tar.gz
 
     echo "make sure we've bind all ports"
     netstat -a --tcp -n | grep LISTEN | awk '{print $4}' \
