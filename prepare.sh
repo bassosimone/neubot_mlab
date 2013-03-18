@@ -6,6 +6,23 @@
 #
 # Written by Stephen Soltesz and Simone Basso.
 #
+# =======================================================================
+# This file is part of Neubot <http://www.neubot.org/>.
+#
+# Neubot is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Neubot is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Neubot.  If not, see <http://www.gnu.org/licenses/>.
+# =======================================================================
+#
 
 GITDIR=neubot
 BUILDDIR=buildir
@@ -41,8 +58,8 @@ cp neubot/dist/mlab/* $BUILDDIR
 # Spell the list of files we want to install at /home/mlab_neubot because
 # we don't want to include the current directory into the archive. If we
 # include it, in fact, and we unpack the archive as root, the ownership of
-# is steal by root -- as a consequenc the ordinary user `mlab_neubot` is
-# not able to write new files (unless he/she logs in and fixes the ownership,
-# which is annoying).
+# the home directory is steal by root; as a consequence, the unprivileged
+# user is no longer permitted to write new files (unless he/she manages to
+# log in and fixes the ownership).
 #
 tar -C $BUILDDIR -cvf mlab_neubot.tar init neubot.tar.gz version
