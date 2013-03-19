@@ -1,8 +1,9 @@
 #!/bin/sh -e
 
 #
-# Copyright (c) 2011-2012 Simone Basso <bassosimone@gmail.com>,
-#  NEXA Center for Internet & Society at Politecnico di Torino
+# Copyright (c) 2011-2013
+#     Nexa Center for Internet & Society, Politecnico di Torino (DAUIN)
+#     and Simone Basso <bassosimone@gmail.com>
 #
 # This file is part of Neubot <http://www.neubot.org/>.
 #
@@ -25,28 +26,36 @@
 #
 
 DEBUG=
-DEPLOY=1
 FORCE=0
 
 # Wrappers for ssh, scp
 SCP="$DEBUG $HOME/bin/mlab_scp"
 SSH="$DEBUG $HOME/bin/mlab_ssh"
-SUDO="/usr/bin/sudo"
 
-# Command line
-args=$(getopt fn $*) || {
-    echo "Usage: $0 [-nf] [host... ]" 1>&2
-    echo "  -n : generate the tarball and exit" 1>&2
+#
+# XXX The version of sudo installed by Measurement Lab fails because no ssh
+# askpass program was specified and stdin is not a tty (even if it is not
+# configured to ask for a password).  To work around this check, we provide
+# both the -A command line argument and the SUDO_ASKPASS environment variable.
+# It does not matter that SUDO_ASKPASS does not exist, since sudo is not
+# configured to use a password; thus, it won't invoke that command.
+#
+SUDO="$DEBUG SUDO_ASKPASS=/usr/bin/ssh-askpass /usr/bin/sudo -A"
+
+usage() {
+    echo "usage: $0 [-f] [host... ]" 1>&2
     echo "  -f : Force deployment when it is already deployed" 1>&2
     exit 1
+}
+
+# Command line
+args=$(getopt f $*) || {
+    usage
 }
 set -- $args
 while [ $# -gt 0 ]; do
     if [ "$1" = "-f" ]; then
         FORCE=1
-        shift
-    elif [ "$1" = "-n" ]; then
-        DEPLOY=0
         shift
     elif [ "$1" = "--" ]; then
         shift
@@ -54,25 +63,13 @@ while [ $# -gt 0 ]; do
     fi
 done
 
-destdir=dist/mlab
-tarball=$destdir/neubot.tar.gz
-version=$destdir/version
-
-rm -rf -- $destdir
-mkdir -p $destdir
-$DEBUG git archive --format=tar --prefix=neubot/ HEAD|gzip -9 > $tarball
-$DEBUG git describe --tags > $version
-
-if [ "$DEPLOY" = "0" ]; then
-    exit 0
+TARBALL=mlab_neubot.tar
+if [ ! -f $TARBALL ]; then
+    echo "FATAL: Missing '$TARBALL'; please run 'prepare.sh'" 1>&2
+    exit 1
 fi
 
-if [ $# -eq 0 ]; then
-    # Fetch the list of hosts in realtime
-    HOSTS=$(./M-Lab/ls.py)
-else
-    HOSTS=$*
-fi
+HOSTS=$*
 
 COUNT=0
 for HOST in $HOSTS; do
@@ -87,8 +84,9 @@ for HOST in $HOSTS; do
     # Run the installation in the subshell with set -e so that
     # the first command that fails "throws an exception" and we
     # know something went wrong looking at $?.
-    # We need to reenable errors otherwise the outer shell is
-    # going to bail out if the inner one fails.
+    #
+    # Note: We need to reenable errors otherwise the outer shell
+    # is going to bail out if the inner one fails.
     #
     set +e
     (
@@ -96,50 +94,33 @@ for HOST in $HOSTS; do
 
         DOINST=1
         if [ $FORCE -eq 0 ]; then
-            echo "$HOST: do we need to resume?"
+            echo "$HOST: check whether neubot is installed... "
             if $SSH $HOST 'ps auxww|grep -q ^_neubot'; then
+                echo "$HOST: neubot is installed; use -f to force reinstall"
                 DOINST=0
             fi
         fi
 
         if [ "$DOINST" = "1" ]; then
             echo "$HOST: stop and remove old neubot"
-            stop_sh='/home/mlab_neubot/neubot/M-Lab/stop.sh'
-            $SSH $HOST "if test -x $stop_sh; then $SUDO $stop_sh || true; fi"
-            $SSH $HOST rm -rf neubot
+            STOP_SH='/home/mlab_neubot/init/stop.sh'
+            $SSH $HOST "if test -x $STOP_SH; then $SUDO $STOP_SH || true; fi"
+            $SSH $HOST $SUDO rm -rf -- init neubot version
 
-            echo "$HOST: copy files"
-            $SCP $tarball $HOST:
-            $SCP $version $HOST:
+            echo "$HOST: copy mlab distribution"
+            $SCP $TARBALL $HOST:
 
-            echo "$HOST: install new neubot"
-            $SSH $HOST tar -xzf neubot.tar.gz
-            $SSH $HOST python -m compileall -q neubot/neubot/
+            echo "$HOST: unpack mlab distribution"
+            $SSH $HOST tar -xf mlab_neubot.tar
 
-            echo "$HOST: start new neubot"
-            $SSH $HOST $SUDO /home/mlab_neubot/neubot/M-Lab/install.sh
-            $SSH $HOST $SUDO /etc/rc.d/rc.local
-
-            echo "$HOST: cleanup"
-            $SSH $HOST rm -rf neubot.tar.gz
+            echo "$HOST: initialize mlab distribution"
+            $SSH $HOST $SUDO /home/mlab_neubot/init/initialize.sh
         fi
 
-        #
-        # Make sure all our ports are bound on the virtualized
-        # machine.  If they are not, Neubot may work but it hasn't
-        # been deployed correctly and Thomas must be informed.
-        # While there, make sure we've not been able to bind to
-        # port 80, which should not happen.
-        #
-        echo "$HOST: make sure we've bind all ports"
-        $SSH $HOST netstat -a --tcp -n | grep LISTEN \
-               | awk '{print $4}' | sort > M-Lab/ports.new
-        diff -u M-Lab/ports.txt M-Lab/ports.new
-
     #
-    # As soon as we exit from the subshell, save the errno and
-    # re-enable errors, to catch potential doofus in the remainder
-    # of the script.
+    # As soon as we exit from the subshell, save the error (if any) and
+    # re-enable errors, to catch potential doofus in the remainder of the
+    # script.
     #
     )
     ERROR=$?
