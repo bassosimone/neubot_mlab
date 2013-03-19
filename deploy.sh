@@ -100,15 +100,10 @@ for HOST in $HOSTS; do
         fi
 
         if [ "$DOINST" = "1" ]; then
-            echo "$HOST: stop and remove old neubot"
-            STOP_SH='/home/mlab_neubot/init/stop.sh'
-            $SSH $HOST "if test -x $STOP_SH; then $SUDO $STOP_SH || true; fi"
-            $SSH $HOST $SUDO rm -rf -- init neubot version
-
-            echo "$HOST: copy mlab distribution"
+            echo "$HOST: copy mlab distribution tarball"
             $SCP $TARBALL $HOST:
 
-            echo "$HOST: unpack mlab distribution"
+            echo "$HOST: unpack mlab distribution tarball"
             $SSH $HOST tar -xf mlab_neubot.tar
 
             echo "$HOST: initialize mlab distribution"

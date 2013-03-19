@@ -32,21 +32,31 @@ fi
 cd /home/mlab_neubot
 
 if [ -f neubot.tar.gz ]; then 
-    echo "install neubot"
+
+    if [ -x /home/mlab_neubot/neubot/M-Lab/stop.sh ]; then
+        echo "stop previous neubot"
+        /home/mlab_neubot/neubot/M-Lab/stop.sh
+    fi
+
+    if [ -x /home/mlab_neubot/neubot/M-Lab/uninstall.sh ]; then
+        echo "uninstall previous neubot"
+        /home/mlab_neubot/neubot/M-Lab/uninstall.sh
+    fi
+
+    echo "extract new neubot"
     tar -xzf neubot.tar.gz
-    python -m compileall -q neubot/neubot/
+
+    echo "install new neubot"
+    /home/mlab_neubot/neubot/M-Lab/install.sh
 
     echo "start new neubot"
-    /home/mlab_neubot/neubot/M-Lab/install.sh
     /home/mlab_neubot/init/start.sh
+
+    echo "check new neubot deployment"
+    /home/mlab_neubot/neubot/M-Lab/check.sh
 
     echo "cleanup"
     rm -rf neubot.tar.gz
-
-    echo "make sure we've bind all ports"
-    netstat -a --tcp -n | grep LISTEN | awk '{print $4}' \
-        | sort > neubot/M-Lab/ports.new
-    diff -u neubot/M-Lab/ports.txt neubot/M-Lab/ports.new
 
 else
     echo "FATAL: neubot.tar.gz missing" 1>&2
