@@ -24,6 +24,7 @@
 # =======================================================================
 #
 
+REMOTEBRANCH=stable_mlab
 GITDIR=neubot
 BUILDDIR=buildir
 
@@ -42,9 +43,9 @@ BUILDDIR=buildir
     # Simone maintains a branch for deploying into M-Lab (and, yes, he
     # writes comments using the third person :-P)
     #
-    git checkout stable_mlab
     git fetch origin
-    git reset --hard origin/stable_mlab
+    git checkout $REMOTEBRANCH
+    git reset --hard origin/$REMOTEBRANCH
     git archive --format=tar --prefix=neubot/ HEAD|gzip -9 > $tarball
     git describe --tags > $version
 )
