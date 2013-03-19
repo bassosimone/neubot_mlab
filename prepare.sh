@@ -24,7 +24,17 @@
 # =======================================================================
 #
 
-REMOTEBRANCH=stable_mlab
+if [ $# -gt 1 ]; then
+    echo "usage: $0 [branch]" 1>&2
+    exit 1
+elif [ $# -eq 1 ]; then
+    REMOTEBRANCH=$1
+else
+    REMOTEBRANCH=stable_mlab
+fi
+
+echo "NOTICE: preparing release from ${REMOTEBRANCH}'s HEAD"
+
 GITDIR=neubot
 BUILDDIR=buildir
 
