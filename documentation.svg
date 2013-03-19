@@ -68,7 +68,7 @@
        ry="20"
        id="ellipse8" />
     <text
-       font-size="12.8"
+       font-size="12.7998"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="221.6"
        y="38.9"
@@ -96,7 +96,7 @@
        ry="31.4833"
        id="ellipse18" />
     <text
-       font-size="12.8"
+       font-size="12.7998"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="15.425"
        y="236.583"
@@ -128,7 +128,7 @@
        ry="32"
        id="ellipse30" />
     <text
-       font-size="12.8"
+       font-size="12.7998"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="223.3"
        y="145.1"
@@ -160,7 +160,7 @@
        ry="32"
        id="ellipse42" />
     <text
-       font-size="12.8"
+       font-size="12.7998"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="402.75"
        y="236.1"
@@ -220,7 +220,7 @@
        ry="31.4833"
        id="ellipse66" />
     <text
-       font-size="12.8"
+       font-size="12.7998"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="14.425"
        y="354.583"
@@ -266,7 +266,7 @@
        ry="32"
        id="ellipse84" />
     <text
-       font-size="12.8"
+       font-size="12.7998"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="146.45"
        y="356.1"
@@ -283,138 +283,166 @@
   </g>
   <g
      id="g92">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="211.1"
+       y1="182.697"
+       x2="160"
+       y2="322.997"
+       id="line94" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="157.959,313.991 159.235,325.098 167.355,317.413 "
+       id="polyline96" />
+  </g>
+  <g
+     id="g98">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="149.699"
+       y1="181.591"
+       x2="68.2453"
+       y2="217.438"
+       id="line100" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="73.3375,209.734 66.1987,218.338 77.3656,218.887 "
+       id="polyline102" />
+  </g>
+  <g
+     id="g104">
     <ellipse
        style="fill: #ffffff"
        cx="291.25"
        cy="361.2"
        rx="57.05"
        ry="32"
-       id="ellipse94" />
+       id="ellipse106" />
     <ellipse
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        cx="291.25"
        cy="361.2"
        rx="57.05"
        ry="32"
-       id="ellipse96" />
+       id="ellipse108" />
     <text
-       font-size="12.8"
+       font-size="12.7998"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="291.25"
        y="357.1"
-       id="text98">
+       id="text110">
       <tspan
          x="291.25"
          y="357.1"
-         id="tspan100">M-Lab/</tspan>
+         id="tspan112">M-Lab/</tspan>
       <tspan
          x="291.25"
          y="373.1"
-         id="tspan102">install.sh</tspan>
+         id="tspan114">install.sh</tspan>
     </text>
   </g>
   <g
-     id="g104">
+     id="g116">
     <line
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        x1="234.037"
        y1="182.7"
        x2="279.307"
        y2="323.939"
-       id="line106" />
+       id="line118" />
     <polyline
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        points="272.176,318.072 279.99,326.069 281.699,315.02 "
-       id="polyline108" />
-  </g>
-  <g
-     id="g110">
-    <ellipse
-       style="fill: #ffffff"
-       cx="404.75"
-       cy="355.2"
-       rx="48.55"
-       ry="32"
-       id="ellipse112" />
-    <ellipse
-       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
-       cx="404.75"
-       cy="355.2"
-       rx="48.55"
-       ry="32"
-       id="ellipse114" />
-    <text
-       font-size="12.8"
-       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
-       x="404.75"
-       y="351.1"
-       id="text116">
-      <tspan
-         x="404.75"
-         y="351.1"
-         id="tspan118">M-Lab/</tspan>
-      <tspan
-         x="404.75"
-         y="367.1"
-         id="tspan120">start.sh</tspan>
-    </text>
+       id="polyline120" />
   </g>
   <g
      id="g122">
-    <line
+    <ellipse
+       style="fill: #ffffff"
+       cx="405.75"
+       cy="355.2"
+       rx="48.55"
+       ry="32"
+       id="ellipse124" />
+    <ellipse
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
-       x1="403.333"
-       y1="273.702"
-       x2="404.1"
-       y2="317.823"
-       id="line124" />
-    <polyline
-       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
-       points="398.966,310.147 404.139,320.059 408.964,309.974 "
-       id="polyline126" />
+       cx="405.75"
+       cy="355.2"
+       rx="48.55"
+       ry="32"
+       id="ellipse126" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="405.75"
+       y="351.1"
+       id="text128">
+      <tspan
+         x="405.75"
+         y="351.1"
+         id="tspan130">M-Lab/</tspan>
+      <tspan
+         x="405.75"
+         y="367.1"
+         id="tspan132">start.sh</tspan>
+    </text>
   </g>
   <g
-     id="g128">
+     id="g134">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="403.624"
+       y1="273.702"
+       x2="404.775"
+       y2="317.824"
+       id="line136" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="399.574,310.193 404.833,320.059 409.571,309.932 "
+       id="polyline138" />
+  </g>
+  <g
+     id="g140">
     <ellipse
        style="fill: #ffffff"
        cx="540.5"
        cy="356.2"
        rx="56.3"
        ry="32"
-       id="ellipse130" />
+       id="ellipse142" />
     <ellipse
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        cx="540.5"
        cy="356.2"
        rx="56.3"
        ry="32"
-       id="ellipse132" />
+       id="ellipse144" />
     <text
-       font-size="12.8"
+       font-size="12.7998"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="540.5"
        y="352.1"
-       id="text134">
+       id="text146">
       <tspan
          x="540.5"
          y="352.1"
-         id="tspan136">M-Lab/</tspan>
+         id="tspan148">M-Lab/</tspan>
       <tspan
          x="540.5"
          y="368.1"
-         id="tspan138">check.sh</tspan>
+         id="tspan150">check.sh</tspan>
     </text>
   </g>
   <g
-     id="g140">
+     id="g152">
     <path
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        d="M 538.059,318.767 A 223.421,223.421 0 0 0 296.8,129.473"
-       id="path142" />
+       id="path154" />
     <polyline
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        points="532.145,311.705 538.392,320.978 542.062,310.417 "
-       id="polyline144" />
+       id="polyline156" />
   </g>
   <line
      style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20 8 4 8; stroke: #000000"
@@ -422,66 +450,66 @@
      y1="298.5"
      x2="686.25"
      y2="298.5"
-     id="line146" />
+     id="line158" />
   <line
      style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20 8 4 8; stroke: #000000"
      x1="-316.25"
      y1="96"
      x2="678.75"
      y2="97.25"
-     id="line148" />
+     id="line160" />
   <text
-     font-size="12.8"
+     font-size="12.7998"
      style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
      x="-200"
      y="199.925"
-     id="text150">
+     id="text162">
     <tspan
        x="-200"
        y="199.925"
-       id="tspan152">Standard sliver managment</tspan>
+       id="tspan164">Standard sliver managment</tspan>
     <tspan
        x="-200"
        y="215.925"
-       id="tspan154">scripts defined by Measurement Lab</tspan>
+       id="tspan166">scripts defined by Measurement Lab</tspan>
   </text>
   <text
-     font-size="12.8"
+     font-size="12.7998"
      style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
      x="-195.5"
      y="35.15"
-     id="text156">
+     id="text168">
     <tspan
        x="-195.5"
        y="35.15"
-       id="tspan158">Convenience scripts to help</tspan>
+       id="tspan170">Convenience scripts to help</tspan>
     <tspan
        x="-195.5"
        y="51.15"
-       id="tspan160">non-measurement-lab deployment</tspan>
+       id="tspan172">non-measurement-lab deployment</tspan>
     <tspan
        x="-195.5"
        y="67.15"
-       id="tspan162">of slivers</tspan>
+       id="tspan174">of slivers</tspan>
   </text>
   <text
-     font-size="12.8"
+     font-size="12.7998"
      style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
      x="-194.25"
-     y="335.149"
-     id="text164">
+     y="334.963"
+     id="text176">
     <tspan
        x="-194.25"
-       y="335.149"
-       id="tspan166">Each version of Neubot ships with</tspan>
+       y="334.963"
+       id="tspan178">Each version of Neubot ships with</tspan>
     <tspan
        x="-194.25"
-       y="351.149"
-       id="tspan168">version-specific implementation of</tspan>
+       y="350.963"
+       id="tspan180">version-specific implementation of</tspan>
     <tspan
        x="-194.25"
-       y="367.149"
-       id="tspan170">the management scripts</tspan>
+       y="366.963"
+       id="tspan182">the management scripts</tspan>
   </text>
   <line
      style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20 8 4 8; stroke: #000000"
@@ -489,115 +517,93 @@
      y1="-20.25"
      x2="-53.75"
      y2="443.5"
-     id="line172" />
+     id="line184" />
   <g
-     id="g174">
+     id="g186">
     <ellipse
        style="fill: #ffffff"
        cx="-7.5"
        cy="36"
        rx="32.5"
        ry="20"
-       id="ellipse176" />
+       id="ellipse188" />
     <ellipse
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        cx="-7.5"
        cy="36"
        rx="32.5"
        ry="20"
-       id="ellipse178" />
+       id="ellipse190" />
     <text
-       font-size="12.8"
+       font-size="12.7998"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="-7.5"
        y="39.9"
-       id="text180">
+       id="text192">
       <tspan
          x="-7.5"
          y="39.9"
-         id="tspan182">ls.py</tspan>
+         id="tspan194">ls.py</tspan>
     </text>
   </g>
   <g
-     id="g184">
+     id="g196">
     <ellipse
        style="fill: #ffffff"
        cx="102.075"
        cy="36"
        rx="58.325"
        ry="20"
-       id="ellipse186" />
+       id="ellipse198" />
     <ellipse
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        cx="102.075"
        cy="36"
        rx="58.325"
        ry="20"
-       id="ellipse188" />
+       id="ellipse200" />
     <text
-       font-size="12.8"
+       font-size="12.7998"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="102.075"
        y="39.9"
-       id="text190">
+       id="text202">
       <tspan
          x="102.075"
          y="39.9"
-         id="tspan192">prepare.sh</tspan>
-    </text>
-  </g>
-  <g
-     id="g194">
-    <ellipse
-       style="fill: #ffffff"
-       cx="386.95"
-       cy="39.25"
-       rx="74.45"
-       ry="32"
-       id="ellipse196" />
-    <ellipse
-       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
-       cx="386.95"
-       cy="39.25"
-       rx="74.45"
-       ry="32"
-       id="ellipse198" />
-    <text
-       font-size="12.8"
-       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
-       x="386.95"
-       y="35.15"
-       id="text200">
-      <tspan
-         x="386.95"
-         y="35.15"
-         id="tspan202">deploy</tspan>
-      <tspan
-         x="386.95"
-         y="51.15"
-         id="tspan204">postproc.sh</tspan>
+         id="tspan204">prepare.sh</tspan>
     </text>
   </g>
   <g
      id="g206">
-    <path
+    <ellipse
+       style="fill: #ffffff"
+       cx="386.95"
+       cy="39.25"
+       rx="74.45"
+       ry="32"
+       id="ellipse208" />
+    <ellipse
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
-       d="M 188.165,55.85 A 563.002,563.002 0 0 0 38.6009,204.005"
-       id="path208" />
-    <polyline
-       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
-       points="38.7891,194.762 37.3345,205.848 47.0755,200.36 "
-       id="polyline210" />
-  </g>
-  <g
-     id="g212">
-    <path
-       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
-       d="M 196.772,56.0053 A 257.627,257.627 0 0 0 130.774,323.041"
-       id="path214" />
-    <polyline
-       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
-       points="123.444,317.388 131.479,325.162 132.878,314.07 "
-       id="polyline216" />
+       cx="386.95"
+       cy="39.25"
+       rx="74.45"
+       ry="32"
+       id="ellipse210" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="386.95"
+       y="35.15"
+       id="text212">
+      <tspan
+         x="386.95"
+         y="35.15"
+         id="tspan214">deploy</tspan>
+      <tspan
+         x="386.95"
+         y="51.15"
+         id="tspan216">postproc.sh</tspan>
+    </text>
   </g>
 </svg>
