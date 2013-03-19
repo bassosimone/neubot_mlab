@@ -115,6 +115,9 @@ for HOST in $HOSTS; do
 
             echo "$HOST: initialize mlab distribution"
             $SSH $HOST $SUDO /home/mlab_neubot/init/initialize.sh
+
+            echo "$HOST: remove mlab distribution tarball"
+            $SSH $HOST rm mlab_neubot.tar
         fi
 
     #
