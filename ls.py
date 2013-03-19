@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
 #
-# Copyright (c) 2011 Simone Basso <bassosimone@gmail.com>,
-#  NEXA Center for Internet & Society at Politecnico di Torino
+# Copyright (c) 2011, 2013
+#     Nexa Center for Internet & Society, Politecnico di Torino (DAUIN)
+#     and Simone Basso <bassosimone@gmail.com>
 #
 # This file is part of Neubot <http://www.neubot.org/>.
 #
@@ -22,29 +23,23 @@
 
 ''' Lists the hostname of all the nodes within a slice '''
 
-#
-# This file is invoked by various shell scripts to get
-# a list of all the M-Lab nodes in our slice.
-#
-
 import ConfigParser
-import asyncore
 import getopt
+import logging
 import os
 import sys
 import time
 import xmlrpclib
 
 def lsmain():
-
     ''' Lists the hostname of all nodes within a slice '''
 
     try:
         options, arguments = getopt.getopt(sys.argv[1:], 'h')
     except getopt.error:
-        sys.exit('usage: M-Lab/ls.py [-h]')
+        sys.exit('usage: ls.py [-h]')
     if arguments:
-        sys.exit('usage: M-Lab/ls.py [-h]')
+        sys.exit('usage: ls.py [-h]')
 
     noheader = 1
     for opt in options:
@@ -76,7 +71,7 @@ def lsmain():
         sys.stdout.write("STATIC_TABLE_TIME = '%s'\n" % time.ctime())
         sys.stdout.write('\n')
         sys.stdout.write('STATIC_TABLE = [\n')
-    for hostname in hostnames:
+    for hostname in sorted(hostnames):
         if not noheader:
             sys.stdout.write("    'neubot.mlab.%s',\n" % hostname)
         else:
@@ -89,7 +84,7 @@ def main():
     try:
         lsmain()
     except:
-        sys.stderr.write('%s\n' % str(asyncore.compact_traceback()))
+        logging.error('unhandled exception', exc_info=1)
         sys.exit(1)
 
 if __name__ == '__main__':
