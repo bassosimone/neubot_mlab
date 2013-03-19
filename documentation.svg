@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="51cm"
+   height="24cm"
+   viewBox="-318 -22 1005 466"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="documentation.svg"
+   inkscape:export-filename="/home/simone/neubot_mlab/documentation.png"
+   inkscape:export-xdpi="128"
+   inkscape:export-ydpi="128">
+  <metadata
+     id="metadata222">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs220" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview218"
+     showgrid="false"
+     inkscape:zoom="0.16158605"
+     inkscape:cx="903.54333"
+     inkscape:cy="425.19684"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g4">
+    <ellipse
+       style="fill: #ffffff"
+       cx="221.6"
+       cy="35"
+       rx="54.1"
+       ry="20"
+       id="ellipse6" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="221.6"
+       cy="35"
+       rx="54.1"
+       ry="20"
+       id="ellipse8" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="221.6"
+       y="38.9"
+       id="text10">
+      <tspan
+         x="221.6"
+         y="38.9"
+         id="tspan12">deploy.sh</tspan>
+    </text>
+  </g>
+  <g
+     id="g14">
+    <ellipse
+       style="fill: #ffffff"
+       cx="15.425"
+       cy="240.683"
+       rx="47.225"
+       ry="31.4833"
+       id="ellipse16" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 3; stroke: #90ee90"
+       cx="15.425"
+       cy="240.683"
+       rx="47.225"
+       ry="31.4833"
+       id="ellipse18" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="15.425"
+       y="236.583"
+       id="text20">
+      <tspan
+         x="15.425"
+         y="236.583"
+         id="tspan22">init/</tspan>
+      <tspan
+         x="15.425"
+         y="252.583"
+         id="tspan24">stop.sh</tspan>
+    </text>
+  </g>
+  <g
+     id="g26">
+    <ellipse
+       style="fill: #ffffff"
+       cx="223.3"
+       cy="149.2"
+       rx="72.1"
+       ry="32"
+       id="ellipse28" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 3; stroke: #90ee90"
+       cx="223.3"
+       cy="149.2"
+       rx="72.1"
+       ry="32"
+       id="ellipse30" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="223.3"
+       y="145.1"
+       id="text32">
+      <tspan
+         x="223.3"
+         y="145.1"
+         id="tspan34">init/</tspan>
+      <tspan
+         x="223.3"
+         y="161.1"
+         id="tspan36">initialize.sh</tspan>
+    </text>
+  </g>
+  <g
+     id="g38">
+    <ellipse
+       style="fill: #ffffff"
+       cx="402.75"
+       cy="240.2"
+       rx="48.55"
+       ry="32"
+       id="ellipse40" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 3; stroke: #90ee90"
+       cx="402.75"
+       cy="240.2"
+       rx="48.55"
+       ry="32"
+       id="ellipse42" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="402.75"
+       y="236.1"
+       id="text44">
+      <tspan
+         x="402.75"
+         y="236.1"
+         id="tspan46">init/</tspan>
+      <tspan
+         x="402.75"
+         y="252.1"
+         id="tspan48">start.sh</tspan>
+    </text>
+  </g>
+  <g
+     id="g50">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="221.913"
+       y1="56.0013"
+       x2="222.735"
+       y2="111.243"
+       id="line52" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="217.62,103.555 222.768,113.479 227.619,103.406 "
+       id="polyline54" />
+  </g>
+  <g
+     id="g56">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="289.279"
+       y1="182.658"
+       x2="348.718"
+       y2="212.8"
+       id="line58" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="339.532,213.748 350.713,213.812 344.055,204.829 "
+       id="polyline60" />
+  </g>
+  <g
+     id="g62">
+    <ellipse
+       style="fill: #ffffff"
+       cx="14.425"
+       cy="358.683"
+       rx="47.225"
+       ry="31.4833"
+       id="ellipse64" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="14.425"
+       cy="358.683"
+       rx="47.225"
+       ry="31.4833"
+       id="ellipse66" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="14.425"
+       y="354.583"
+       id="text68">
+      <tspan
+         x="14.425"
+         y="354.583"
+         id="tspan70">M-Lab/</tspan>
+      <tspan
+         x="14.425"
+         y="370.583"
+         id="tspan72">stop.sh</tspan>
+    </text>
+  </g>
+  <g
+     id="g74">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="15.1456"
+       y1="273.655"
+       x2="14.7373"
+       y2="321.83"
+       id="line76" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="9.80329,314.024 14.7184,324.066 19.8029,314.109 "
+       id="polyline78" />
+  </g>
+  <g
+     id="g80">
+    <ellipse
+       style="fill: #ffffff"
+       cx="146.45"
+       cy="360.2"
+       rx="73.25"
+       ry="32"
+       id="ellipse82" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="146.45"
+       cy="360.2"
+       rx="73.25"
+       ry="32"
+       id="ellipse84" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="146.45"
+       y="356.1"
+       id="text86">
+      <tspan
+         x="146.45"
+         y="356.1"
+         id="tspan88">M-Lab/</tspan>
+      <tspan
+         x="146.45"
+         y="372.1"
+         id="tspan90">uninstall.sh</tspan>
+    </text>
+  </g>
+  <g
+     id="g92">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="211.1"
+       y1="182.697"
+       x2="160"
+       y2="322.997"
+       id="line94" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="157.959,313.991 159.235,325.098 167.355,317.413 "
+       id="polyline96" />
+  </g>
+  <g
+     id="g98">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="149.699"
+       y1="181.591"
+       x2="68.2453"
+       y2="217.438"
+       id="line100" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="73.3375,209.734 66.1987,218.338 77.3656,218.887 "
+       id="polyline102" />
+  </g>
+  <g
+     id="g104">
+    <ellipse
+       style="fill: #ffffff"
+       cx="291.25"
+       cy="361.2"
+       rx="57.05"
+       ry="32"
+       id="ellipse106" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="291.25"
+       cy="361.2"
+       rx="57.05"
+       ry="32"
+       id="ellipse108" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="291.25"
+       y="357.1"
+       id="text110">
+      <tspan
+         x="291.25"
+         y="357.1"
+         id="tspan112">M-Lab/</tspan>
+      <tspan
+         x="291.25"
+         y="373.1"
+         id="tspan114">install.sh</tspan>
+    </text>
+  </g>
+  <g
+     id="g116">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="234.037"
+       y1="182.7"
+       x2="279.307"
+       y2="323.939"
+       id="line118" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="272.176,318.072 279.99,326.069 281.699,315.02 "
+       id="polyline120" />
+  </g>
+  <g
+     id="g122">
+    <ellipse
+       style="fill: #ffffff"
+       cx="405.75"
+       cy="355.2"
+       rx="48.55"
+       ry="32"
+       id="ellipse124" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="405.75"
+       cy="355.2"
+       rx="48.55"
+       ry="32"
+       id="ellipse126" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="405.75"
+       y="351.1"
+       id="text128">
+      <tspan
+         x="405.75"
+         y="351.1"
+         id="tspan130">M-Lab/</tspan>
+      <tspan
+         x="405.75"
+         y="367.1"
+         id="tspan132">start.sh</tspan>
+    </text>
+  </g>
+  <g
+     id="g134">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x1="403.624"
+       y1="273.702"
+       x2="404.775"
+       y2="317.824"
+       id="line136" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="399.574,310.193 404.833,320.059 409.571,309.932 "
+       id="polyline138" />
+  </g>
+  <g
+     id="g140">
+    <ellipse
+       style="fill: #ffffff"
+       cx="540.5"
+       cy="356.2"
+       rx="56.3"
+       ry="32"
+       id="ellipse142" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="540.5"
+       cy="356.2"
+       rx="56.3"
+       ry="32"
+       id="ellipse144" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="540.5"
+       y="352.1"
+       id="text146">
+      <tspan
+         x="540.5"
+         y="352.1"
+         id="tspan148">M-Lab/</tspan>
+      <tspan
+         x="540.5"
+         y="368.1"
+         id="tspan150">check.sh</tspan>
+    </text>
+  </g>
+  <g
+     id="g152">
+    <path
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       d="M 538.059,318.767 A 223.421,223.421 0 0 0 296.8,129.473"
+       id="path154" />
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="532.145,311.705 538.392,320.978 542.062,310.417 "
+       id="polyline156" />
+  </g>
+  <line
+     style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20 8 4 8; stroke: #000000"
+     x1="-311.25"
+     y1="298.5"
+     x2="686.25"
+     y2="298.5"
+     id="line158" />
+  <line
+     style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20 8 4 8; stroke: #000000"
+     x1="-316.25"
+     y1="96"
+     x2="678.75"
+     y2="97.25"
+     id="line160" />
+  <text
+     font-size="12.7998"
+     style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+     x="-200"
+     y="199.925"
+     id="text162">
+    <tspan
+       x="-200"
+       y="199.925"
+       id="tspan164">Standard sliver managment</tspan>
+    <tspan
+       x="-200"
+       y="215.925"
+       id="tspan166">scripts defined by Measurement Lab</tspan>
+  </text>
+  <text
+     font-size="12.7998"
+     style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+     x="-195.5"
+     y="35.15"
+     id="text168">
+    <tspan
+       x="-195.5"
+       y="35.15"
+       id="tspan170">Convenience scripts to help</tspan>
+    <tspan
+       x="-195.5"
+       y="51.15"
+       id="tspan172">non-measurement-lab deployment</tspan>
+    <tspan
+       x="-195.5"
+       y="67.15"
+       id="tspan174">of slivers</tspan>
+  </text>
+  <text
+     font-size="12.7998"
+     style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+     x="-194.25"
+     y="334.963"
+     id="text176">
+    <tspan
+       x="-194.25"
+       y="334.963"
+       id="tspan178">Each version of Neubot ships with</tspan>
+    <tspan
+       x="-194.25"
+       y="350.963"
+       id="tspan180">version-specific implementation of</tspan>
+    <tspan
+       x="-194.25"
+       y="366.963"
+       id="tspan182">the management scripts</tspan>
+  </text>
+  <line
+     style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20 8 4 8; stroke: #000000"
+     x1="-51.25"
+     y1="-20.25"
+     x2="-53.75"
+     y2="443.5"
+     id="line184" />
+  <g
+     id="g186">
+    <ellipse
+       style="fill: #ffffff"
+       cx="-7.5"
+       cy="36"
+       rx="32.5"
+       ry="20"
+       id="ellipse188" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="-7.5"
+       cy="36"
+       rx="32.5"
+       ry="20"
+       id="ellipse190" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="-7.5"
+       y="39.9"
+       id="text192">
+      <tspan
+         x="-7.5"
+         y="39.9"
+         id="tspan194">ls.py</tspan>
+    </text>
+  </g>
+  <g
+     id="g196">
+    <ellipse
+       style="fill: #ffffff"
+       cx="102.075"
+       cy="36"
+       rx="58.325"
+       ry="20"
+       id="ellipse198" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="102.075"
+       cy="36"
+       rx="58.325"
+       ry="20"
+       id="ellipse200" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="102.075"
+       y="39.9"
+       id="text202">
+      <tspan
+         x="102.075"
+         y="39.9"
+         id="tspan204">prepare.sh</tspan>
+    </text>
+  </g>
+  <g
+     id="g206">
+    <ellipse
+       style="fill: #ffffff"
+       cx="386.95"
+       cy="39.25"
+       rx="74.45"
+       ry="32"
+       id="ellipse208" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="386.95"
+       cy="39.25"
+       rx="74.45"
+       ry="32"
+       id="ellipse210" />
+    <text
+       font-size="12.7998"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+       x="386.95"
+       y="35.15"
+       id="text212">
+      <tspan
+         x="386.95"
+         y="35.15"
+         id="tspan214">deploy</tspan>
+      <tspan
+         x="386.95"
+         y="51.15"
+         id="tspan216">postproc.sh</tspan>
+    </text>
+  </g>
+</svg>
