@@ -33,6 +33,8 @@ else
     REMOTEBRANCH=stable_mlab
 fi
 
+umask 022  # Override possibly-stricter user umask
+
 echo "NOTICE: preparing release from ${REMOTEBRANCH}'s HEAD"
 
 GITDIR=neubot
@@ -62,7 +64,7 @@ BUILDDIR=buildir
 
 rm -rf $BUILDDIR
 mkdir -p $BUILDDIR/init
-cp initialize.sh start.sh stop.sh $BUILDDIR/init
+install initialize.sh start.sh stop.sh $BUILDDIR/init
 cp neubot/dist/mlab/* $BUILDDIR
 
 #
