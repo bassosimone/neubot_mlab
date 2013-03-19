@@ -33,12 +33,12 @@ BUILDDIR=buildir
 
 (
     cd $GITDIR
-    destdir=dist/mlab
-    tarball=$destdir/neubot.tar.gz
-    version=$destdir/version
+    DESTDIR=dist/mlab
+    TARBALL=$DESTDIR/neubot.tar.gz
+    VERSION=$DESTDIR/version
 
-    rm -rf -- $destdir
-    mkdir -p $destdir
+    rm -rf -- $DESTDIR
+    mkdir -p $DESTDIR
     #
     # Simone maintains a branch for deploying into M-Lab (and, yes, he
     # writes comments using the third person :-P)
@@ -46,8 +46,8 @@ BUILDDIR=buildir
     git fetch origin
     git checkout $REMOTEBRANCH
     git reset --hard origin/$REMOTEBRANCH
-    git archive --format=tar --prefix=neubot/ HEAD|gzip -9 > $tarball
-    git describe --tags > $version
+    git archive --format=tar --prefix=neubot/ HEAD|gzip -9 > $TARBALL
+    git describe --tags > $VERSION
 )
 
 rm -rf $BUILDDIR
