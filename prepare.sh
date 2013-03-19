@@ -56,11 +56,10 @@ cp initialize.sh start.sh stop.sh $BUILDDIR/init
 cp neubot/dist/mlab/* $BUILDDIR
 
 #
-# Spell the list of files we want to install at /home/mlab_neubot because
-# we don't want to include the current directory into the archive. If we
-# include it, in fact, and we unpack the archive as root, the ownership of
-# the home directory is steal by root; as a consequence, the unprivileged
-# user is no longer permitted to write new files (unless he/she manages to
-# log in and fixes the ownership).
+# Use '*' rather than '.' because we don't want to include the current
+# directory into the archive. If we include it, in fact, and we unpack the
+# archive as root, the ownership of the home directory is steal by root; as a
+# consequence, the unprivileged user is no longer permitted to write new
+# files (unless he/she manages to log in and fixes the ownership).
 #
-tar -C $BUILDDIR -cvf mlab_neubot.tar init neubot.tar.gz version
+tar -C $BUILDDIR -cvf mlab_neubot.tar `ls $BUILDDIR`
