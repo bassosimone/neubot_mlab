@@ -33,12 +33,10 @@ SCP="$DEBUG $HOME/bin/mlab_scp"
 SSH="$DEBUG $HOME/bin/mlab_ssh"
 
 #
-# XXX The version of sudo installed by Measurement Lab fails because no ssh
-# askpass program was specified and stdin is not a tty (even if it is not
-# configured to ask for a password).  To work around this check, we provide
-# both the -A command line argument and the SUDO_ASKPASS environment variable.
-# It does not matter that SUDO_ASKPASS does not exist, since sudo is not
-# configured to use a password; thus, it won't invoke that command.
+# The version of sudo installed by Measurement Lab fails because no ssh askpass
+# program is specified and stdin is not a tty.  To avoid this problem, we
+# provide both the -A command line argument and the SUDO_ASKPASS environment
+# variable, like we do for the master server.
 #
 SUDO="$DEBUG SUDO_ASKPASS=/usr/bin/ssh-askpass /usr/bin/sudo -A"
 
