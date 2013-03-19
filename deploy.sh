@@ -75,7 +75,7 @@ COUNT=0
 for HOST in $HOSTS; do
     COUNT=$(($COUNT + 1))
 
-    # Blank line before to separate each host logs
+    # A blank line separates one host's log from another host's log
     echo ""
     echo "$HOST: start deploy"
     echo "$HOST: current host number $COUNT"
