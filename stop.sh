@@ -28,5 +28,10 @@
 # Measurement Lab, the real shutdown script is bundled with Neubot sources.
 #
 
+if [ `id -u` -ne 0 ]; then
+    echo "$0: FATAL: need root privileges" 1>&2
+    exit 1
+fi
+
 DEBUG=
 $DEBUG /home/mlab_neubot/neubot/M-Lab/stop.sh
