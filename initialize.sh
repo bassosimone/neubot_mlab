@@ -49,7 +49,6 @@ if [ -f neubot.tar.gz ]; then
     diff -u neubot/M-Lab/ports.txt neubot/M-Lab/ports.new
 
 else
-    echo "neubot.tar.gz missing"
-    echo "really shouldn't happen, but you never know."
+    echo "FATAL: neubot.tar.gz missing" 1>&2
     exit 1
 fi
