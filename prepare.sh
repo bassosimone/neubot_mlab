@@ -39,8 +39,8 @@ fi
 
 umask 022  # Override possibly-stricter user umask
 
-echo "NOTICE: auto pulling neubot_mlab from upstream"
-git pull
+#echo "NOTICE: auto pulling neubot_mlab from upstream"
+#git pull
 
 echo "NOTICE: preparing release from ${REMOTEBRANCH}'s HEAD"
 
