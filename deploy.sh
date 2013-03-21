@@ -116,6 +116,9 @@ do_deploy()
             echo "$HOST: initialize mlab distribution"
             $SSH $HOST $SUDO /home/mlab_neubot/init/initialize.sh
 
+            echo "$HOST: start new neubot"
+            $SSH $HOST $SUDO /home/mlab_neubot/init/start.sh
+
             echo "$HOST: remove mlab distribution tarball"
             $SSH $HOST rm mlab_neubot.tar
         fi

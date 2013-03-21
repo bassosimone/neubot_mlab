@@ -322,35 +322,7 @@ start.sh#</dia:string>
         <dia:connection handle="1" to="O2" connection="8"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O5">
-      <dia:attribute name="obj_pos">
-        <dia:point val="14.464,9.13292"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="14.3968,9.06572;17.7351,10.8111"/>
-      </dia:attribute>
-      <dia:attribute name="conn_endpoints">
-        <dia:point val="14.464,9.13292"/>
-        <dia:point val="17.6353,10.7411"/>
-      </dia:attribute>
-      <dia:attribute name="numcp">
-        <dia:int val="1"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow">
-        <dia:enum val="1"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow_length">
-        <dia:real val="0.5"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow_width">
-        <dia:real val="0.5"/>
-      </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O2" connection="8"/>
-        <dia:connection handle="1" to="O3" connection="8"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="UML - Usecase" version="0" id="O6">
+    <dia:object type="UML - Usecase" version="0" id="O5">
       <dia:attribute name="obj_pos">
         <dia:point val="-1.64,16.36"/>
       </dia:attribute>
@@ -408,7 +380,7 @@ stop.sh#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O7">
+    <dia:object type="Standard - Line" version="0" id="O6">
       <dia:attribute name="obj_pos">
         <dia:point val="0.757279,13.6827"/>
       </dia:attribute>
@@ -433,10 +405,10 @@ stop.sh#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O1" connection="8"/>
-        <dia:connection handle="1" to="O6" connection="8"/>
+        <dia:connection handle="1" to="O5" connection="8"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="UML - Usecase" version="0" id="O8">
+    <dia:object type="UML - Usecase" version="0" id="O7">
       <dia:attribute name="obj_pos">
         <dia:point val="3.66,16.41"/>
       </dia:attribute>
@@ -494,7 +466,7 @@ uninstall.sh#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O9">
+    <dia:object type="Standard - Line" version="0" id="O8">
       <dia:attribute name="obj_pos">
         <dia:point val="10.555,9.13484"/>
       </dia:attribute>
@@ -519,10 +491,10 @@ uninstall.sh#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O2" connection="8"/>
-        <dia:connection handle="1" to="O8" connection="8"/>
+        <dia:connection handle="1" to="O7" connection="8"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="UML - Usecase" version="0" id="O10">
+    <dia:object type="UML - Usecase" version="0" id="O9">
       <dia:attribute name="obj_pos">
         <dia:point val="11.71,16.46"/>
       </dia:attribute>
@@ -580,7 +552,7 @@ install.sh#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O11">
+    <dia:object type="Standard - Line" version="0" id="O10">
       <dia:attribute name="obj_pos">
         <dia:point val="11.7019,9.13501"/>
       </dia:attribute>
@@ -605,10 +577,10 @@ install.sh#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O2" connection="8"/>
-        <dia:connection handle="1" to="O10" connection="8"/>
+        <dia:connection handle="1" to="O9" connection="8"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="UML - Usecase" version="0" id="O12">
+    <dia:object type="UML - Usecase" version="0" id="O11">
       <dia:attribute name="obj_pos">
         <dia:point val="17.86,16.16"/>
       </dia:attribute>
@@ -666,7 +638,7 @@ start.sh#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O13">
+    <dia:object type="Standard - Line" version="0" id="O12">
       <dia:attribute name="obj_pos">
         <dia:point val="20.1812,13.6851"/>
       </dia:attribute>
@@ -691,10 +663,10 @@ start.sh#</dia:string>
       </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O3" connection="8"/>
-        <dia:connection handle="1" to="O12" connection="8"/>
+        <dia:connection handle="1" to="O11" connection="8"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="UML - Usecase" version="0" id="O14">
+    <dia:object type="UML - Usecase" version="0" id="O13">
       <dia:attribute name="obj_pos">
         <dia:point val="24.21,16.21"/>
       </dia:attribute>
@@ -752,38 +724,7 @@ check.sh#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Arc" version="0" id="O15">
-      <dia:attribute name="obj_pos">
-        <dia:point val="11.165,7.46"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="11.0958,6.37736;27.3684,17.8792"/>
-      </dia:attribute>
-      <dia:attribute name="conn_endpoints">
-        <dia:point val="11.165,7.46"/>
-        <dia:point val="27.025,17.81"/>
-      </dia:attribute>
-      <dia:attribute name="curve_distance">
-        <dia:real val="-5.2442640605894129"/>
-      </dia:attribute>
-      <dia:attribute name="line_width">
-        <dia:real val="0.10000000149011612"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow">
-        <dia:enum val="1"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow_length">
-        <dia:real val="0.5"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow_width">
-        <dia:real val="0.5"/>
-      </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O2" connection="8"/>
-        <dia:connection handle="1" to="O14" connection="8"/>
-      </dia:connections>
-    </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O16">
+    <dia:object type="Standard - Line" version="0" id="O14">
       <dia:attribute name="obj_pos">
         <dia:point val="-15.5625,14.925"/>
       </dia:attribute>
@@ -801,7 +742,7 @@ check.sh#</dia:string>
         <dia:enum val="2"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O17">
+    <dia:object type="Standard - Line" version="0" id="O15">
       <dia:attribute name="obj_pos">
         <dia:point val="-15.8125,4.8"/>
       </dia:attribute>
@@ -819,7 +760,7 @@ check.sh#</dia:string>
         <dia:enum val="2"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O18">
+    <dia:object type="Standard - Text" version="1" id="O16">
       <dia:attribute name="obj_pos">
         <dia:point val="-10,10.175"/>
       </dia:attribute>
@@ -853,7 +794,7 @@ scripts defined by Measurement Lab#</dia:string>
         <dia:enum val="2"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O19">
+    <dia:object type="Standard - Text" version="1" id="O17">
       <dia:attribute name="obj_pos">
         <dia:point val="-9.775,2.33625"/>
       </dia:attribute>
@@ -888,7 +829,7 @@ of slivers#</dia:string>
         <dia:enum val="2"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O20">
+    <dia:object type="Standard - Text" version="1" id="O18">
       <dia:attribute name="obj_pos">
         <dia:point val="-9.7125,17.3362"/>
       </dia:attribute>
@@ -923,7 +864,7 @@ the management scripts#</dia:string>
         <dia:enum val="2"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O21">
+    <dia:object type="Standard - Line" version="0" id="O19">
       <dia:attribute name="obj_pos">
         <dia:point val="-2.5625,-1.0125"/>
       </dia:attribute>
@@ -941,7 +882,7 @@ the management scripts#</dia:string>
         <dia:enum val="2"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="UML - Usecase" version="0" id="O22">
+    <dia:object type="UML - Usecase" version="0" id="O20">
       <dia:attribute name="obj_pos">
         <dia:point val="-2,0.8"/>
       </dia:attribute>
@@ -998,7 +939,7 @@ the management scripts#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="UML - Usecase" version="0" id="O23">
+    <dia:object type="UML - Usecase" version="0" id="O21">
       <dia:attribute name="obj_pos">
         <dia:point val="2.1875,0.8"/>
       </dia:attribute>
@@ -1055,7 +996,7 @@ the management scripts#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="UML - Usecase" version="0" id="O24">
+    <dia:object type="UML - Usecase" version="0" id="O22">
       <dia:attribute name="obj_pos">
         <dia:point val="15.625,0.3625"/>
       </dia:attribute>
@@ -1113,7 +1054,7 @@ postproc.sh#</dia:string>
         </dia:composite>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Arc" version="0" id="O25">
+    <dia:object type="Standard - Arc" version="0" id="O23">
       <dia:attribute name="obj_pos">
         <dia:point val="11.08,1.75"/>
       </dia:attribute>
@@ -1125,7 +1066,7 @@ postproc.sh#</dia:string>
         <dia:point val="0.77125,12.0342"/>
       </dia:attribute>
       <dia:attribute name="curve_distance">
-        <dia:real val="0.98271217045639359"/>
+        <dia:real val="0.9827121704564008"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000149011612"/>
@@ -1142,6 +1083,65 @@ postproc.sh#</dia:string>
       <dia:connections>
         <dia:connection handle="0" to="O0" connection="8"/>
         <dia:connection handle="1" to="O1" connection="8"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Arc" version="0" id="O24">
+      <dia:attribute name="obj_pos">
+        <dia:point val="11.08,1.75"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="11.0094,1.67943;20.2475,12.0806"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="11.08,1.75"/>
+        <dia:point val="20.1375,12.01"/>
+      </dia:attribute>
+      <dia:attribute name="curve_distance">
+        <dia:real val="-1.4097721595085491"/>
+      </dia:attribute>
+      <dia:attribute name="line_width">
+        <dia:real val="0.10000000149011612"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O0" connection="8"/>
+        <dia:connection handle="1" to="O3" connection="8"/>
+      </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O25">
+      <dia:attribute name="obj_pos">
+        <dia:point val="22.1259,13.6844"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="22.0554,13.614;25.1511,16.232"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="22.1259,13.6844"/>
+        <dia:point val="25.0656,16.16"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="1"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:connections>
+        <dia:connection handle="0" to="O3" connection="8"/>
+        <dia:connection handle="1" to="O13" connection="8"/>
       </dia:connections>
     </dia:object>
   </dia:layer>

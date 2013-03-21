@@ -45,12 +45,6 @@ if [ -f neubot.tar.gz ]; then
     echo "install new neubot"
     /home/mlab_neubot/neubot/M-Lab/install.sh
 
-    echo "start new neubot"
-    /home/mlab_neubot/init/start.sh
-
-    echo "check new neubot deployment"
-    /home/mlab_neubot/neubot/M-Lab/check.sh
-
     echo "cleanup"
     rm -rf neubot.tar.gz
 

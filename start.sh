@@ -30,3 +30,4 @@
 
 DEBUG=
 $DEBUG /home/mlab_neubot/neubot/M-Lab/start.sh
+$DEBUG /home/mlab_neubot/neubot/M-Lab/check.sh
