@@ -83,6 +83,8 @@ def main():
     ''' Wrapper for the real main '''
     try:
         lsmain()
+    except (KeyboardInterrupt, SystemExit):
+        raise
     except:
         logging.error('unhandled exception', exc_info=1)
         sys.exit(1)
