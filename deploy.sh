@@ -108,7 +108,7 @@ do_deploy()
 
             echo "$HOST: stop previous neubot instance (if any)"
             STOP_SH=/home/mlab_neubot/init/stop.sh
-            $SSH $HOST $SUDO "if [ -x $STOP_SH ]; then $STOP_SH; fi"
+            $SSH $HOST $SUDO " $STOP_SH || true "
 
             echo "$HOST: unpack mlab distribution tarball"
             $SSH $HOST tar -xf mlab_neubot.tar
