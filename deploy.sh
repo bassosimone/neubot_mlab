@@ -68,8 +68,9 @@ if [ ! -f $TARBALL ]; then
 fi
 
 #
-# Note: this function uses global variables (which makes it work with both
-# POSIX shells, where `local` or `typeset` are available, and ksh93).
+# Note: this function uses two global variables: HOST and COUNT.  We use
+# global variables to the script works with both POSIX shells (where `local`
+# or `typeset` are available) and ksh93.
 #
 do_deploy()
 {
@@ -135,6 +136,6 @@ if [ $# -ne 0 ]; then
     done
 else
     while read HOST REMAINDER; do
-        do_deploy $HOST
+        do_deploy
     done
 fi
