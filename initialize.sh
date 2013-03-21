@@ -34,9 +34,16 @@ cd /home/mlab_neubot
 
 if [ -f neubot.tar.gz ]; then 
 
-    if [ -x /home/mlab_neubot/init/stop.sh ]; then
+    #
+    # Here we cannot use `init/stop.sh` because initialize.sh runs after
+    # Measurement Lab infrastructure has unpacked the new Neubot distribution:
+    # thus, the init scripts are the ones of the new distribution, not the
+    # ones of the old distribution. Instead, M-Lab/stop.sh is still the script
+    # of the old distribution.
+    #
+    if [ -x /home/mlab_neubot/neubot/M-Lab/stop.sh ]; then
         echo "stop previous neubot"
-        /home/mlab_neubot/init/stop.sh
+        /home/mlab_neubot/neubot/M-Lab/stop.sh
     fi
 
     if [ -x /home/mlab_neubot/neubot/M-Lab/uninstall.sh ]; then
