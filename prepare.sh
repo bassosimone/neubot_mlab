@@ -1,8 +1,8 @@
 #!/bin/sh -e
 
 #
-# init/prepare.sh - Prepares the tarball that should be installed
-# in all Measurement Lab slivers.
+# init/prepare.sh - Prepares the neubot distribution that should be
+# copied in all Measurement Lab slivers.
 #
 # Written by Stephen Soltesz and Simone Basso.
 #

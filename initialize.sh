@@ -1,8 +1,9 @@
 #!/bin/sh -e
 
 #
-# init/initialize.sh - Prepares the environment for Neubot after it
-# has been installed on a sliver.
+# init/initialize.sh - After the new neubot distribution has been copied on
+# a sliver, this script removes the old neubot (if any) and installs the new
+# neubot on the sliver.
 #
 # Written by Stephen Soltesz and Simone Basso.
 #
