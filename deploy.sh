@@ -67,10 +67,12 @@ if [ ! -f $TARBALL ]; then
     exit 1
 fi
 
-HOSTS=$*
-
-COUNT=0
-for HOST in $HOSTS; do
+#
+# Note: this function uses global variables (which makes it work with both
+# POSIX shells, where `local` or `typeset` are available, and ksh93).
+#
+do_deploy()
+{
     COUNT=$(($COUNT + 1))
 
     # A blank line separates one host's log from another host's log
@@ -124,4 +126,15 @@ for HOST in $HOSTS; do
 
     echo "$HOST: deploy result: $ERROR"
     echo "$HOST: deploy complete"
-done
+}
+
+COUNT=0
+if [ $# -ne 0 ]; then
+    for HOST in $*; do
+        do_deploy
+    done
+else
+    while read HOST REMAINDER; do
+        do_deploy $HOST
+    done
+fi
