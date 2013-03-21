@@ -30,6 +30,10 @@ if [ $# -gt 1 ]; then
 elif [ $# -eq 1 ]; then
     REMOTEBRANCH=$1
 else
+    #
+    # Simone maintains a branch for deploying into M-Lab (and, yes, he
+    # writes comments using the third person :-P)
+    #
     REMOTEBRANCH=stable_mlab
 fi
 
@@ -51,10 +55,6 @@ BUILDDIR=buildir
 
     rm -rf -- $DESTDIR
     mkdir -p $DESTDIR
-    #
-    # Simone maintains a branch for deploying into M-Lab (and, yes, he
-    # writes comments using the third person :-P)
-    #
     git fetch origin
     git checkout $REMOTEBRANCH
     git reset --hard origin/$REMOTEBRANCH
