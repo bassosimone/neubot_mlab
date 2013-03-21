@@ -22,7 +22,7 @@
 #
 
 #
-# $HOME/init/stop.sh - stop Neubot on M-Lab slivers.
+# init/stop.sh - stop Neubot on M-Lab slivers.
 #
 # To be robust with respect to future changes of Neubot shutdown procedure on
 # Measurement Lab, the real shutdown script is bundled with Neubot sources.

@@ -22,7 +22,7 @@
 #
 
 #
-# $HOME/init/start.sh - start Neubot on M-Lab slivers.
+# init/start.sh - start Neubot on M-Lab slivers.
 #
 # To be robust with respect to future changes of Neubot startup procedure on
 # Measurement Lab, the real startup script is bundled with Neubot sources.
