@@ -1115,14 +1115,14 @@ postproc.sh#</dia:string>
     </dia:object>
     <dia:object type="Standard - Arc" version="0" id="O25">
       <dia:attribute name="obj_pos">
-        <dia:point val="11.165,7.46"/>
+        <dia:point val="11.08,1.75"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="0.650539,7.38929;11.2357,18.0049"/>
+        <dia:rectangle val="0.700539,1.67929;11.1507,12.1049"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="11.165,7.46"/>
-        <dia:point val="0.72125,17.9342"/>
+        <dia:point val="11.08,1.75"/>
+        <dia:point val="0.77125,12.0342"/>
       </dia:attribute>
       <dia:attribute name="curve_distance">
         <dia:real val="0.98271217045639359"/>
@@ -1140,8 +1140,8 @@ postproc.sh#</dia:string>
         <dia:real val="0.5"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O2" connection="8"/>
-        <dia:connection handle="1" to="O6" connection="8"/>
+        <dia:connection handle="0" to="O0" connection="8"/>
+        <dia:connection handle="1" to="O1" connection="8"/>
       </dia:connections>
     </dia:object>
   </dia:layer>

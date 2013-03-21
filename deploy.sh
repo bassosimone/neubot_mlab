@@ -106,6 +106,10 @@ do_deploy()
             echo "$HOST: copy mlab distribution tarball"
             $SCP $TARBALL $HOST:
 
+            echo "$HOST: stop previous neubot instance (if any)"
+            STOP_SH=/home/mlab_neubot/init/stop.sh
+            $SSH $HOST "test -x $STOP_SH && $STOP_SH"
+
             echo "$HOST: unpack mlab distribution tarball"
             $SSH $HOST tar -xf mlab_neubot.tar
 

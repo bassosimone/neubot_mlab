@@ -47,8 +47,8 @@
      inkscape:zoom="0.19976906"
      inkscape:cx="903.54333"
      inkscape:cy="425.19684"
-     inkscape:window-x="176"
-     inkscape:window-y="34"
+     inkscape:window-x="248"
+     inkscape:window-y="33"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <g
@@ -596,11 +596,11 @@
      id="g212">
     <path
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
-       d="M 171.848,182.679 A 566.399,566.399 0 0 0 36.986,322.489"
+       d="M 187.531,55.9966 A 549.238,549.238 0 0 0 38.2911,204.017"
        id="path214" />
     <polyline
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
-       points="37.1099,313.245 35.7326,324.341 45.4351,318.785 "
+       points="38.4299,194.774 37.0341,205.866 46.7459,200.327 "
        id="polyline216" />
   </g>
 </svg>
