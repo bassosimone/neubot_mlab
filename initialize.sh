@@ -34,9 +34,9 @@ cd /home/mlab_neubot
 
 if [ -f neubot.tar.gz ]; then 
 
-    if [ -x /home/mlab_neubot/neubot/M-Lab/stop.sh ]; then
+    if [ -x /home/mlab_neubot/init/stop.sh ]; then
         echo "stop previous neubot"
-        /home/mlab_neubot/neubot/M-Lab/stop.sh
+        /home/mlab_neubot/init/stop.sh
     fi
 
     if [ -x /home/mlab_neubot/neubot/M-Lab/uninstall.sh ]; then
