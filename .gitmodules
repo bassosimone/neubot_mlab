@@ -1,3 +1,6 @@
 [submodule "neubot"]
 	path = neubot
 	url = https://github.com/neubot/neubot.git
+[submodule "neubot-support"]
+	path = neubot-support
+	url = https://github.com/bassosimone/neubot-support
