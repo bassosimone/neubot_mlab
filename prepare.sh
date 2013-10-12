@@ -41,8 +41,9 @@ umask 022  # Override possibly-stricter user umask
 
 echo "NOTICE: preparing release from ${REMOTEBRANCH}'s HEAD"
 
-GITDIR=neubot
 BUILDDIR=buildir
+GITDIR=neubot
+INITDIR=neubot-support/init
 
 [ -d $GITDIR ] || \
     git clone https://github.com/neubot/neubot.git $GITDIR
@@ -64,7 +65,8 @@ BUILDDIR=buildir
 
 rm -rf $BUILDDIR
 mkdir -p $BUILDDIR/init
-install initialize.sh start.sh stop.sh $BUILDDIR/init
+install $INITDIR/initialize.sh $INITDIR/start.sh $INITDIR/stop.sh \
+    $BUILDDIR/init
 cp neubot/dist/mlab/* $BUILDDIR
 
 #

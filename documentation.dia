@@ -765,13 +765,14 @@ check.sh#</dia:string>
         <dia:point val="-10,10.175"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-15.8375,9.4025;-4.1625,10.9475"/>
+        <dia:rectangle val="-15.8375,8.97456;-4.14387,11.3754"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>#Standard sliver managment
-scripts defined by Measurement Lab#</dia:string>
+scripts defined by Measurement Lab
+(sources in mlab-support/init)#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -780,7 +781,7 @@ scripts defined by Measurement Lab#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-10,9.9975"/>
+            <dia:point val="-10,9.58819"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
@@ -799,14 +800,14 @@ scripts defined by Measurement Lab#</dia:string>
         <dia:point val="-9.775,2.33625"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="-15.3438,1.16375;-4.20625,3.50875"/>
+        <dia:rectangle val="-15.3438,1.13581;-4.18763,3.53669"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>#Convenience scripts to help
 non-measurement-lab deployment
-of slivers#</dia:string>
+of slivers (mainly by me)#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -815,7 +816,7 @@ of slivers#</dia:string>
             <dia:real val="0.80000000000000004"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="-9.775,1.75875"/>
+            <dia:point val="-9.775,1.74944"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>

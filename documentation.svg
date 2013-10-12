@@ -15,10 +15,10 @@
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="documentation.svg"
    inkscape:export-filename="/Users/simone/neubot_mlab/documentation.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192">
   <metadata
-     id="metadata222">
+     id="metadata224">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -30,7 +30,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs220" />
+     id="defs222" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -42,13 +42,13 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview218"
+     id="namedview220"
      showgrid="false"
-     inkscape:zoom="0.19976906"
+     inkscape:zoom="0.21028322"
      inkscape:cx="903.54333"
      inkscape:cy="425.19684"
-     inkscape:window-x="240"
-     inkscape:window-y="109"
+     inkscape:window-x="194"
+     inkscape:window-y="48"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <g
@@ -423,54 +423,58 @@
      font-size="12.8"
      style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
      x="-200"
-     y="199.95"
+     y="191.764"
      id="text144">
     <tspan
        x="-200"
-       y="199.95"
+       y="191.764"
        id="tspan146">Standard sliver managment</tspan>
     <tspan
        x="-200"
-       y="215.95"
+       y="207.764"
        id="tspan148">scripts defined by Measurement Lab</tspan>
+    <tspan
+       x="-200"
+       y="223.764"
+       id="tspan150">(sources in mlab-support/init)</tspan>
   </text>
   <text
      font-size="12.8"
      style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
      x="-195.5"
-     y="35.175"
-     id="text150">
+     y="34.9887"
+     id="text152">
     <tspan
        x="-195.5"
-       y="35.175"
-       id="tspan152">Convenience scripts to help</tspan>
+       y="34.9887"
+       id="tspan154">Convenience scripts to help</tspan>
     <tspan
        x="-195.5"
-       y="51.175"
-       id="tspan154">non-measurement-lab deployment</tspan>
+       y="50.9887"
+       id="tspan156">non-measurement-lab deployment</tspan>
     <tspan
        x="-195.5"
-       y="67.175"
-       id="tspan156">of slivers</tspan>
+       y="66.9887"
+       id="tspan158">of slivers (mainly by me)</tspan>
   </text>
   <text
      font-size="12.8"
      style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
      x="-194.25"
      y="335.174"
-     id="text158">
+     id="text160">
     <tspan
        x="-194.25"
        y="335.174"
-       id="tspan160">Each version of Neubot ships with</tspan>
+       id="tspan162">Each version of Neubot ships with</tspan>
     <tspan
        x="-194.25"
        y="351.174"
-       id="tspan162">version-specific implementation of</tspan>
+       id="tspan164">version-specific implementation of</tspan>
     <tspan
        x="-194.25"
        y="367.174"
-       id="tspan164">the management scripts</tspan>
+       id="tspan166">the management scripts</tspan>
   </text>
   <line
      style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20 8 4 8; stroke: #000000"
@@ -478,129 +482,129 @@
      y1="-20.25"
      x2="-53.75"
      y2="443.5"
-     id="line166" />
+     id="line168" />
   <g
-     id="g168">
+     id="g170">
     <ellipse
        style="fill: #ffffff"
-       cx="-7.5"
-       cy="36"
-       rx="32.5"
-       ry="20"
-       id="ellipse170" />
-    <ellipse
-       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        cx="-7.5"
        cy="36"
        rx="32.5"
        ry="20"
        id="ellipse172" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="-7.5"
+       cy="36"
+       rx="32.5"
+       ry="20"
+       id="ellipse174" />
     <text
        font-size="12.8"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="-7.5"
        y="39.9"
-       id="text174">
+       id="text176">
       <tspan
          x="-7.5"
          y="39.9"
-         id="tspan176">ls.py</tspan>
+         id="tspan178">ls.py</tspan>
     </text>
   </g>
   <g
-     id="g178">
+     id="g180">
     <ellipse
        style="fill: #ffffff"
-       cx="102.075"
-       cy="36"
-       rx="58.325"
-       ry="20"
-       id="ellipse180" />
-    <ellipse
-       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        cx="102.075"
        cy="36"
        rx="58.325"
        ry="20"
        id="ellipse182" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       cx="102.075"
+       cy="36"
+       rx="58.325"
+       ry="20"
+       id="ellipse184" />
     <text
        font-size="12.8"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="102.075"
        y="39.9"
-       id="text184">
+       id="text186">
       <tspan
          x="102.075"
          y="39.9"
-         id="tspan186">prepare.sh</tspan>
+         id="tspan188">prepare.sh</tspan>
     </text>
   </g>
   <g
-     id="g188">
+     id="g190">
     <ellipse
        style="fill: #ffffff"
        cx="386.95"
        cy="39.25"
        rx="74.45"
        ry="32"
-       id="ellipse190" />
+       id="ellipse192" />
     <ellipse
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        cx="386.95"
        cy="39.25"
        rx="74.45"
        ry="32"
-       id="ellipse192" />
+       id="ellipse194" />
     <text
        font-size="12.8"
        style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
        x="386.95"
        y="35.15"
-       id="text194">
+       id="text196">
       <tspan
          x="386.95"
          y="35.15"
-         id="tspan196">deploy</tspan>
+         id="tspan198">deploy</tspan>
       <tspan
          x="386.95"
          y="51.15"
-         id="tspan198">postproc.sh</tspan>
+         id="tspan200">postproc.sh</tspan>
     </text>
   </g>
   <g
-     id="g200">
+     id="g202">
     <path
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        d="M 187.531,55.9967 A 549.24,549.24 0 0 0 38.291,204.018"
-       id="path202" />
+       id="path204" />
     <polyline
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        points="38.4299,194.774 37.0341,205.867 46.7459,200.328 "
-       id="polyline204" />
+       id="polyline206" />
   </g>
   <g
-     id="g206">
+     id="g208">
     <path
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        d="M 387.966,202.661 A 346.254,346.254 0 0 0 259.67,55.9977"
-       id="path208" />
+       id="path210" />
     <polyline
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        points="380.258,197.603 388.905,204.69 389.387,193.52 "
-       id="polyline210" />
+       id="polyline212" />
   </g>
   <g
-     id="g212">
+     id="g214">
     <line
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        x1="442.518"
        y1="273.689"
        x2="497.891"
        y2="320.319"
-       id="line214" />
+       id="line216" />
     <polyline
        style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
        points="488.732,319.143 499.602,321.759 495.173,311.494 "
-       id="polyline216" />
+       id="polyline218" />
   </g>
 </svg>
